@@ -2,6 +2,7 @@ import https = require('https');
 import request = require('request');
 
 import { User } from './config_types';
+const SECRET = 'ASD@#%TGDXV)CDWK$!@QA~';
 
 export interface Authenticator {
     isAuthProvider(user: User): boolean;
