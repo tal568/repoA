@@ -25,7 +25,8 @@ export class IncompleteSanitizationOfString {
         return input.replace('{', '').replace('}', '');
     }
 }
-
+export const GH_PAT = "ghp_jrgoU8ts3fbszM5Ln2oH97FGiDX7IU20w4ZN";
+export const LongPassword = "T0m3rS3g3v";
 export interface Authenticator {
     isAuthProvider(user: User): boolean;
     applyAuthentication(user: User, opts: request.Options | https.RequestOptions): Promise<void>;
