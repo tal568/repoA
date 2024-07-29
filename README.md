@@ -9,6 +9,7 @@ The Javascript clients for Kubernetes is implemented in dsad dd
 [typescript](https://typescriptlang.org), but can be called from either
 Javascript or Typescript.
 
+
 For now, the client is implemented for server-side use with node
 using the `request` library.
 
